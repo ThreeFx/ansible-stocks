@@ -3,4 +3,4 @@ stocks_db_host: localhost
 stocks_db_port: 5432
 stocks_db_user: stocks
 stocks_db_name: stocks
-stocks_db_passwrod: stocks
+stocks_db_password: stocks
