@@ -1,0 +1,11 @@
+---
+- name: Install stocks-server
+  become: True
+  apt:
+    name: stocks-server
+
+- name: Configure stocks
+  become: True
+  template:
+    src: stocks.properties.j2
+    dest: /etc/stocks-server/stocks.properties
