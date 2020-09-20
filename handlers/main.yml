@@ -1,0 +1,6 @@
+---
+- name: restart tomcat
+  become: True
+  systemd:
+    name: tomcat9
+    state: restarted
